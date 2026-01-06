@@ -7,6 +7,6 @@ module top;
 
     // Run test
     initial begin
-        run_test("my_test")
+        run_test("my_test");
     end
 endmodule: top  
