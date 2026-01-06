@@ -1,8 +1,6 @@
 package my_pkg;
-
-  // Always first
-  import uvm_pkg::*;
   `include "uvm_macros.svh"
+  import uvm_pkg::*;
 
   // Include order matters
   `include "my_env.svh"
