@@ -1,6 +1,6 @@
 class my_env extends uvm_env;
     // Macro
-    `uvm_components_utils(my_env) 
+    `uvm_component_utils(my_env)
 
     // Constructor
     function new(string name, uvm_component parent);
@@ -17,5 +17,5 @@ class my_env extends uvm_env;
         #10;
         phase.drop_objection(this);
     endtask: run_phase
-    
+
 endclass: my_env
