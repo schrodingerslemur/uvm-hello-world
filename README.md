@@ -1,5 +1,6 @@
 Commands to run:
 ```bash
+cd rtl/
 vlog dut.sv
 vlog my_pkg.sv
 vlog top.sv
